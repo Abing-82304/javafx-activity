@@ -1,6 +1,7 @@
 module aclcbukidnon.com.javafxactivity {
     requires javafx.controls;
     requires javafx.fxml;
+    requires jfxrt;
 
 
     opens aclcbukidnon.com.javafxactivity to javafx.fxml;
